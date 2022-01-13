@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <title>Lucksamon's Website</title>
+        </head>
+        <body>
+            <h1>Lucksamon Tang</h1>
+            <h2>About Me</h2>
+            <p>I was born in Bangkok and raised in Nonthaburi.</p>
+            <p>At eighteen I studied aboard at University of Washington in the USA.</p>
+
+            <h2>My favorite sites</h2>
+            <ol>
+                <li>
+                   <a href="https://www.instagram.com/?hl=en">Instagram</a>
+                </li>
+                <li>
+                    <a href="https://my.uw.edu/">MyUW</a>
+                </li>
+                <li>
+                    <a href="https://myplan.uw.edu/home/#/home">MyplanUW</a>
+                </li>
+                <li>
+                    <a href="https://canvas.uw.edu/">Canvas</a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/">YouTube</a>
+                </li>
+            </ol>
+            <h2>My favorite pictures</h2>
+            <h3>Image of my favorite cartoon character: Gudetama</h3>
+            <a href="https://qz.com/756797/gudetama-the-lazy-egg-is-the-hello-kitty-of-japans-millennial-generation/">
+                <img src="https://cms.qz.com/wp-content/uploads/2016/08/gu_announcement_01.png?quality=75&strip=all&w=1600&h=900&crop=1" title="Gudetama" style="width:300px; height: 300px; margin: 5px">
+            </a>
+
+            <h3>Image of my favorite food: Curry</h3>
+            <a href="https://www.bonappetit.com/recipe/japanese-curry-with-winter-squash-and-mushrooms">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Beef_curry_rice_003.jpg" title="Japanese Curry" style="width:300px; height: 300px; margin: 5px">
+            </a>
+
+            <h1>The button Element</h1>
+            <button type="button" onclick="alert('Hello world!')">INFO101 AC!</button>
+
+            <h1>The option element</h1>
+
+            <label for="foods">Choose a food:</label>
+
+            <select id="foods">
+            <option value="ramen">ramen</option>
+            <option value="udon">udon</option>
+            <option value="curry">curry</option>
+            <option value="tonkatsu">tonkatsu</option>
+            </select>
+
+            <script>
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+            ctx.fillStyle = "#FF0000";
+            ctx.fillRect(0, 0, 80, 100);
+            </script>
+
+            <h1>The footer element</h1>
+            <footer>
+             <p>Author: Lucksamon Tang<br>
+             <a href="mailto:hege@example.com">Lucksamon@example.com</a></p>
+            </footer>
+
+            <h1>The progress element</h1>
+            <label for="file">INFO101 completing progress:</label>
+            <progress id="file" value="32" max="100"> 32% </progress>
+
+            <h1>The pre element</h1>
+            <pre>
+            Text in a pre element
+            is displayed in a fixed-width
+            font, and it preserves
+            both spaces and
+            line breaks
+            </pre>
+
+            <p style="background-color: blueviolet; width:100px; height:100px;">Blueviolet</p>
+
+        </body>
+</html>
