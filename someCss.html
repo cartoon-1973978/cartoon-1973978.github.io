@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <title>Lucksamon's Css Original Work</title>
+        </head>
+        <style>
+            p.a {
+                font: 15px Arial, sans-serif;
+            }
+
+            p.b {
+                 font: italic small-caps bold 12px/30px Georgia, serif;
+            }
+            img{
+                max-width: 100%;
+                max-height: 100%;
+            }
+
+            ul {
+                list-style: upper-roman;
+            }
+
+            .container {
+                position: relative;
+                text-align: center;
+                margin-left: -1125px
+            }
+            .centered {
+            color: white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            }
+
+            .photo{
+                margin-top: 20px;
+                margin-right: 20px; 
+                margin-bottom: 20px;
+                margin-left: 20px;
+            }
+
+            #border1 {
+                border:10 px solid transparent;
+                padding: 15px;
+                border-image: url(https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-create-a-marching-ants-border-effect-1.png) 20 round;
+            }
+
+        </style>
+        <body>
+            <h1>CSS Original Work</h1>
+            <h2>Level 1: Newbie</h2>
+
+            <h3>1. Two paragraphs that each have a different font</h3>
+            <p class="a">This is the first paragraph. The font size is set to 15 pixels, and the font family is Arial.</p>
+
+            <p class="b">This is the second paragraph. The font is set to italic and bold, with small-caps (all lowercase letters are converted to uppercase). The font size is set to 12 pixels, the line height is set to 30 pixels, and the font family is Georgia.</p>
+           
+            <h3>2. Two pictures that were originally different sizes, resized to 50px by 50px</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/en/b/bd/Doraemon_character.png" style="width: 50px; height:50px;">
+            <img src="https://www.nippon.com/en/ncommon/contents/news/11542/11542.jpg" style="width: 50px; height:50px;">
+
+            <h3>3. An unique CSS command: CSS list-style Property</h3>
+            <p>My favourite foods are:</p>
+
+            <ul>
+            <li>Udon</li>
+            <li>Japanese Curry</li>
+            <li>Papaya Salad</li>
+            </ul>
+
+            <h2>Level 2: Apprentice</h2>
+            <h3>1. Text that is centered on a photo</h3>
+            <div class="container">
+            <img src="https://i.natgeofe.com/n/2a832501-483e-422f-985c-0e93757b7d84/6.jpg" style="width: 300px; height:300px;">
+            <div class="centered">Centered</div>
+            </div>
+
+            <h3>2. A photo with 20 pixel margins on each side </h3>
+            <div class="photo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Neckertal_20150527-6384.jpg" style="width: 400px; height:250px;">
+            </div>
+
+            <h3>3. Text with a border that uses dotted lines</h3>
+            <p id="border1">Text with dotted line border</p>
+
+        </body>
+    </html>
+        
